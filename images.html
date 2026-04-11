@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="HTML.png" width="400px" alt="no image">
+    <picture>
+        <source media="(min-width: 650px)" srcset="HTML1.png" />
+        <source media="(min-width: 460px)" srcset="Kolkata-Knight-Riders-Logo-768x432.png" />
+        <img src="./HTML.png" alt="">
+    </picture>
+
+    <!-- an image map generater -->
+
+    <img src="Kolkata-Knight-Riders-Logo-768x432.png" usemap="#image-map">
+
+    <map name="image-map">
+    <area target="" alt="" title="" href="" coords="523,417,264,14" shape="rect">
+</map>
+
+<script>
+    function one(){
+        alert("You clicked on one")
+    }
+    function two(){
+        alert("You clicked on two")
+    }
+</script>
+</body>
+</html>
